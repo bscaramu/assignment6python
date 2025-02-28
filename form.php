@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['a'], $_GET['b'], $_GET['
 </head>
 <body>
     <form action="process.php" method="post">
-        <label for="a">Enter number A:</label>
+        <label for="a">Enter number A !:</label>
         <input type="number" name="a" id="a" value="<?php echo $a; ?>" required><br>
 
         <label for="b">Enter number B:</label>
